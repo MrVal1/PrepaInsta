@@ -1,0 +1,7 @@
+services:
+  instaprep:
+    build: .
+    container_name: instaprep
+    restart: unless-stopped
+    ports:
+      - "3080:80"
